@@ -26,9 +26,6 @@ hs_err_pid*
 .classpath
 .project
 *.prefs
-.settings
-
 
 # Maven output
 target/
-.class
