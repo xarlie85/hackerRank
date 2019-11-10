@@ -1,4 +1,4 @@
-package basics.hackerRanks.arrays;
+package basics.hackerrank.arrays;
 
 import java.io.*;
 import java.math.*;
