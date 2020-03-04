@@ -1,12 +1,19 @@
 package basics.hackerrank.algorithms;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class MiniMaxSum {
 
 	// Complete the miniMaxSum function below.
 	static void miniMaxSum(int[] arr) {
-
+		long max = 0, min = 0;
+		int[] sArr = Arrays.stream(arr).sorted().toArray();
+		System.out.println(sArr);
+		for (int i = 0; i < (arr.length - 1); i++) {
+			min += sArr[i];
+			max += sArr[arr.length - 1 - i];
+		}
+		System.out.println(min + " " + max);
 	}
 
 	private static final Scanner scanner = new Scanner(System.in);
