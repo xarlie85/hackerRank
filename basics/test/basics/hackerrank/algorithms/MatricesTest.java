@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 
+import basics.hackerrank.algorithms.medium.Matrices;
 import common.VariableSource;
 
 class MatricesTest {
