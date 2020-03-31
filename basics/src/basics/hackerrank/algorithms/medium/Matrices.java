@@ -1,4 +1,4 @@
-package basics.hackerrank.algorithms;
+package basics.hackerrank.algorithms.medium;
 
 import java.io.IOException;
 import java.util.*;
