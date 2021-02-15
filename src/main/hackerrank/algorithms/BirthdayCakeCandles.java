@@ -1,7 +1,10 @@
-package basics.hackerrank.algorithms;
+package main.hackerrank.algorithms;
 
-import java.io.*;
-import java.util.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class BirthdayCakeCandles {
 	// Complete the birthdayCakeCandles function below.
