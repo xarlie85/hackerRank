@@ -1,4 +1,4 @@
-package basics.hackerrank.algorithms;
+package main.hackerrank.algorithms;
 
 import java.util.*;
 
