@@ -8,7 +8,6 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@RunWith(JUnitPlatform.class)
 class MatricesTest {
 
 	static Stream<Arguments> arguments = Stream.of(
