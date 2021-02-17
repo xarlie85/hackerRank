@@ -1,4 +1,4 @@
-package basics.hackerrank.algorithms.medium;
+package hackerrank.algorithms.medium;
 
 import java.io.IOException;
 import java.util.*;
@@ -14,7 +14,7 @@ public class Matrices {
 			int n = matrix[0].length;
 			boolean[] rowsToFlip = new boolean[n];
 			boolean[] colsToFlip = new boolean[n];
-			
+
 			for (int i = 0; i < n/2; i++) {
 				if ( needsFlip(matrix[i]) ) {
 					rowsToFlip[i] = true;
@@ -43,8 +43,8 @@ public class Matrices {
 			
 		} while(flipNeeded);
 		
-		System.out.println("Final result: ");
-		printMatrix(matrix);
+			System.out.println("Final result: ");
+			printMatrix(matrix);
 		
 		return sumSubMatrix(matrix);
 	}

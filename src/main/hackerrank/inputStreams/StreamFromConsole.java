@@ -1,4 +1,4 @@
-package basics.inputStreams;
+package hackerrank.inputStreams;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class StreamFromConsole {
 		int b = 'b';
 		try {
 			while ((b = System.in.read()) != -1) {
-				System.out.print("Inserta algún carácter:");
+				System.out.print("Inserta algun caracter:");
 				System.out.print(b +"\n");
 			}
 		} catch (IOException e) {

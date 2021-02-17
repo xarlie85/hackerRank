@@ -1,15 +1,14 @@
-package basics.hackerrank.algorithms;
+package hackerrank.algorithms.medium;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import java.util.stream.Stream;
-
+import common.VariableSource;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 
-import basics.hackerrank.algorithms.medium.Matrices;
-import common.VariableSource;
+import java.util.stream.Stream;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@RunWith(JUnitPlatform.class)
 class MatricesTest {
 
 	static Stream<Arguments> arguments = Stream.of(

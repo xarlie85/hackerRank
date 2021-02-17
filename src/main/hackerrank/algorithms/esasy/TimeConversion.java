@@ -1,4 +1,4 @@
-package basics.hackerrank.algorithms.esasy;
+package hackerrank.algorithms.esasy;
 
 import java.io.IOException;
 import java.util.Scanner;

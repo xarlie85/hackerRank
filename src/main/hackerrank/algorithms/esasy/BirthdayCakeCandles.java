@@ -1,4 +1,4 @@
-package basics.hackerrank.algorithms.esasy;
+package hackerrank.algorithms.esasy;
 
 import java.io.*;
 import java.util.*;
