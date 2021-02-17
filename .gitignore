@@ -24,4 +24,11 @@ hs_err_pid*
 
 # Eclipse projects
 .project
-.idea/
+
+# IntelliJ
+.idea
+out
+*.iml
+*.ipr
+*.iws
+.ijwb/
