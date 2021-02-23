@@ -32,3 +32,6 @@ out
 *.ipr
 *.iws
 .ijwb/
+
+# maven
+target/

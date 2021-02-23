@@ -1,6 +1,7 @@
 package hackerrank.algorithms.medium;
 
-import common.VariableSource;
+
+import hackerrank.common.VariableSource;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 

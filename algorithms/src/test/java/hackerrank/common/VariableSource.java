@@ -1,4 +1,4 @@
-package common;
+package hackerrank.common;
 
 import org.junit.jupiter.params.provider.ArgumentsSource;
 

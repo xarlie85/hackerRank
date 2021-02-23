@@ -1,12 +1,9 @@
-package basics.hackerrank.arrays;
+package hackerrank.data_structures.arrays;
 
 import java.io.*;
-import java.math.*;
-import java.text.*;
 import java.util.*;
-import java.util.regex.*;
 
-public class Solution {
+public class SimpleArraySum {
 
 	/*
      * Complete the simpleArraySum function below.
